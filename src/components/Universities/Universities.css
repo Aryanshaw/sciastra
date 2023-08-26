@@ -1,0 +1,16 @@
+.universityContainer img{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+.universityContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.slider-container {
+    overflow-x: hidden;
+  }

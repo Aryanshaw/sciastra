@@ -1,0 +1,33 @@
+.mentorContainer img{
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden;
+}
+.mentorContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.slider-container {
+    overflow-x: hidden;
+  }
+  .mentorContainer h4, .mentorContainer h5  {
+    margin: 10px 0; 
+  }
+  .mentorContainer button{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(15, 15, 185);
+    border-radius: 10px;
+    border: 3px solid rgb(72, 72, 252); 
+    padding: 10px;
+    margin: 10px 0; 
+  }
+  .mentorContainer button:active {
+    background-color: rgb(72, 72, 252); /* Change background on click */
+    color: white; /* Change text color on click */
+    border-color: white; /* Change border color on click */
+  }
